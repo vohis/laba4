@@ -2,6 +2,10 @@ body {
     font-family: 'League Spartan', sans-serif;
 }
 
+.nav {
+  margin-top: 30px;
+}
+
 .nav-menu_link{
   color: inherit;
   text-decoration: none;
@@ -62,15 +66,18 @@ table {
   vertical-align: middle; /* выравнивание по центру по вертикали */
   text-align: center;
   padding: 50px;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.right p {
+  text-align: left;
 }
 
 .divider {
   width: 1px; /* ширина вертикального разделителя */
   background-color: rgb(0, 0, 0); /* цвет разделителя */
-  
 }
-
-
 
 .container {
   overflow: hidden;
@@ -125,10 +132,88 @@ table {
   margin-bottom: 80px;
  }
 
- /* .selected-square {
-  width: 30px;
+ .user {
+  margin-bottom: 80px;
+  max-width: 37%;
+  margin-left: 80px;
+  text-align: center;
+ }
+
+ .user p {
+  color: rgb(95, 95, 95);
+  text-align: left;
+  font-size: 20px;
+  line-height: 20px;
+  margin-left: 25px;
+ }
+
+.right2 {
+  width: 50%; /* равная ширина для двух колонок */
+  padding: 50px;
+}
+
+.left2 {
+  width: 50%; /* равная ширина для двух колонок */
+  vertical-align: middle; /* выравнивание по центру по вертикали */
+  text-align: center;
+  padding: 50px;
+}
+
+.right2 h2 {
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.right2 p {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: left;
+  margin-left: 65px;
+  max-width: 80%;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.left3 {
+  width: 50%; /* равная ширина для двух колонок */
+  vertical-align: middle; /* выравнивание по центру по вертикали */
+  padding: 50px;
+}
+
+.left3 h2 {
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.left3 h4 {
+  font-size: 20px;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.left3 p {
+  line-height: 20px;
+}
+
+.right3 {
+  font-size: 20px;
+}
+
+.right3 h4 {
+  text-align: left;
+  margin-left: 115px;
+}
+
+.rectangle {
+  margin-left: 115px;
+  width: 60%;
   height: 30px;
-  background-color: #888888;
-  display: inline-block;
-  margin-right: 20px;
- } */
+  background: #e0e0e0;
+}
+
+.right3 p {
+  text-align: left;
+  margin-left: 290px;
+}
